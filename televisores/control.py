@@ -29,4 +29,4 @@ class Control:
         self.tv.turnOff()
 
     def setCanal(self, canal):
-        self.tv.setCanal(canal)
+        self.tv.setCanal(canal):
