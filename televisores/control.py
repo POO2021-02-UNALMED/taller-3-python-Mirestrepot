@@ -1,4 +1,3 @@
-from televisores.tv import *
 class Control:
     def enlazar(self, tv):
         self.tv = tv
@@ -29,4 +28,4 @@ class Control:
         self.tv.turnOff()
 
     def setCanal(self, canal):
-        self.tv.setCanal(canal):
+        self.tv.setCanal(canal)

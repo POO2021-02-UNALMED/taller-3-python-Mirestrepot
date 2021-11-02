@@ -1,11 +1,7 @@
-package taller3.televisores;
-
-from televisores.marca import *
-from televisores.control import *
-
-class TV :
+class TV:
     numTV = 0
-def __init__(self, marca, estado):
+
+    def __init__(self, marca, estado):
         self.marca = marca
         self.estado = estado
         self.canal = 1
@@ -16,6 +12,8 @@ def __init__(self, marca, estado):
     @classmethod
     def setNumTV(cls, numTV):
         cls.numTV = numTV
+
+
 
     @classmethod
     def getNumTV(cls):
