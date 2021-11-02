@@ -63,10 +63,10 @@ def __init__(self, marca, estado):
         if volumen >= 1 and volumen <= 7 and self.estado:
             self.volumen = volumen
 
-    def getPrecio(self)
+    def getPrecio(self):
         return self.precio
 
-    def setPrecio(self, precio)
+    def setPrecio(self, precio):
         self.precio = precio
 
     def getCanal(self):
